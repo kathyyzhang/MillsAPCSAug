@@ -1,7 +1,11 @@
+/* 
+ * Kathy Zhang
+revision date: 8.30.15
+purpose: to spell out Mississippi with cool letters. */
 
 public class Mississippi
 {
-    public static void PrintM()
+    public static void printM()
     {
         System.out.println("M     M");
         System.out.println("MM   MM");
@@ -12,7 +16,7 @@ public class Mississippi
         System.out.println();
     }
 
-    public static void PrintI()
+    public static void printI()
     {
         System.out.println("IIIII");
         System.out.println("  I");
@@ -24,7 +28,7 @@ public class Mississippi
         System.out.println();
     }
 
-    public static void PrintS()
+    public static void printS()
     {
         System.out.println(" SSSSS");
         System.out.println("S     S");
@@ -36,7 +40,7 @@ public class Mississippi
         System.out.println();
     }
 
-    public static void PrintP()
+    public static void printP()
     {
         System.out.println("PPPPPP");
         System.out.println("P     P");
@@ -50,16 +54,16 @@ public class Mississippi
 
     public static void main(String[] args)
     {
-        PrintM();
-        PrintI();
-        PrintS();
-        PrintS();
-        PrintI();
-        PrintS();
-        PrintS();
-        PrintI();
-        PrintP();
-        PrintP();
-        PrintI();
+        printM();
+        printI();
+        printS();
+        printS();
+        printI();
+        printS();
+        printS();
+        printI();
+        printP();
+        printP();
+        printI();
     }
 }
