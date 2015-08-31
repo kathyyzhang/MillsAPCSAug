@@ -1,3 +1,7 @@
+/* Kathy Zhang
+revision: 8.31.15
+purpose: to print a song */
+
 public class OldLady
 {
     public static void PrintBeg()
