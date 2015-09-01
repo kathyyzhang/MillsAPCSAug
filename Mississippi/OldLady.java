@@ -1,3 +1,7 @@
+/*Kathy Zhang
+ * revision date: 8.31.15
+ * purpose: to print the "Old Lady" song :)
+ */
 public class OldLady
 {
     public static void PrintBeg()

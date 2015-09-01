@@ -1,184 +1,165 @@
+/* Kathy Zhang
+ * revision date: 8.31.15
+ * purpose: to print out "The Twelve Days of Christmas" :)
+ */
 public class Christmas
 {
-    public static void PrintDay()
+    public static void printDay()
     {
         System.out.println(" day of Christmas,\nmy true love sent to me");
     }
 
-    public static void PrintPart()
+    public static void printPart()
     {
         System.out.println("a partridge in a pear tree.");
     }
 
-    public static void PrintDove()
+    public static void printDove()
     {
         System.out.println("two turtle doves, and");
     }
 
-    public static void PrintHen()
+    public static void printHen()
     {
         System.out.println("three French hens,");
     }
 
-    public static void PrintBird()
+    public static void printBird()
     {
         System.out.println("four calling birds,");
     }
 
-    public static void PrintRing()
+    public static void printRing()
     {
         System.out.println("five golden rings,");
     }
 
-    public static void PrintGeese()
+    public static void printGeese()
     {
         System.out.println("six geese a-laying,");
     }
 
-    public static void PrintSwan()
+    public static void printSwan()
     {
         System.out.println("seven swans a-swimming,");
     }
 
-    public static void PrintMaid()
+    public static void printMaid()
     {
         System.out.println("eight maids a-milking,");
     }
 
-    public static void PrintLady()
+    public static void printLady()
     {
         System.out.println("nine ladies dancing,");
     }
 
-    public static void PrintLord()
+    public static void printLord()
     {
         System.out.println("ten lords a-leaping");
     }
 
-    public static void PrintPiper()
+    public static void printPiper()
     {
         System.out.println("eleven pipers piping,");
     }
 
-    public static void PrintDrum()
+    public static void printDrum()
     {
         System.out.println("Twelve drummers drumming,");
     }
-
+    
+    public static void printFiveGroup()
+    {
+        printRing();
+        printBird();
+        printHen();
+        printDove();
+        printPart();
+    }
+        
     public static void main(String[] args)
     {
         System.out.print("On the first");
-        PrintDay();
-        PrintPart();
+        printDay();
+        printPart();
         System.out.println();
         System.out.print("On the second");
-        PrintDay();
-        PrintDove();
-        PrintPart();
+        printDay();
+        printDove();
+        printPart();
         System.out.println();
         System.out.print("On the third");
-        PrintDay();
-        PrintHen();
-        PrintDove();
-        PrintPart();
+        printDay();
+        printHen();
+        printDove();
+        printPart();
         System.out.println();
         System.out.print("On the fourth");
-        PrintDay();
-        PrintBird();
-        PrintHen();
-        PrintDove();
-        PrintPart();
+        printDay();
+        printBird();
+        printHen();
+        printDove();
+        printPart();
         System.out.println();
         System.out.print("On the fifth");
-        PrintDay();
-        PrintRing();
-        PrintBird();
-        PrintHen();
-        PrintDove();
-        PrintPart();
+        printDay();
+        printFiveGroup();
         System.out.println();
         System.out.print("On the sixth");
-        PrintDay();
-        PrintGeese();
-        PrintRing();
-        PrintBird();
-        PrintHen();
-        PrintDove();
-        PrintPart();
+        printDay();
+        printGeese();
+        printFiveGroup();
         System.out.println();
         System.out.print("On the seventh");
-        PrintDay();
-        PrintSwan();
-        PrintGeese();
-        PrintRing();
-        PrintBird();
-        PrintHen();
-        PrintDove();
-        PrintPart();
+        printDay();
+        printSwan();
+        printGeese();
+        printFiveGroup();
         System.out.println();
         System.out.print("On the eighth");
-        PrintDay();
-        PrintMaid();
-        PrintSwan();
-        PrintGeese();
-        PrintRing();
-        PrintBird();
-        PrintHen();
-        PrintDove();
-        PrintPart();
+        printDay();
+        printMaid();
+        printSwan();
+        printGeese();
+        printFiveGroup();
         System.out.println();
         System.out.print("On the ninth");
-        PrintDay();
-        PrintLady();
-        PrintMaid();
-        PrintSwan();
-        PrintGeese();
-        PrintRing();
-        PrintBird();
-        PrintHen();
-        PrintDove();
-        PrintPart();
+        printDay();
+        printLady();
+        printMaid();
+        printSwan();
+        printGeese();
+       printFiveGroup();
         System.out.println();
         System.out.print("On the tenth");
-        PrintDay();
-        PrintLord();
-        PrintLady();
-        PrintMaid();
-        PrintSwan();
-        PrintGeese();
-        PrintRing();
-        PrintBird();
-        PrintHen();
-        PrintDove();
-        PrintPart();
+        printDay();
+        printLord();
+        printLady();
+        printMaid();
+        printSwan();
+        printGeese();
+       printFiveGroup();
         System.out.println();
         System.out.print("On the eleventh");
-        PrintDay();
-        PrintPiper();
-        PrintLord();
-        PrintLady();
-        PrintMaid();
-        PrintSwan();
-        PrintGeese();
-        PrintRing();
-        PrintBird();
-        PrintHen();
-        PrintDove();
-        PrintPart();
+        printDay();
+        printPiper();
+        printLord();
+        printLady();
+        printMaid();
+        printSwan();
+        printGeese();
+        printFiveGroup();
         System.out.println();
         System.out.print("On the twelfth");
-        PrintDay();
-        PrintDrum();
-        PrintPiper();
-        PrintLord();
-        PrintLady();
-        PrintMaid();
-        PrintSwan();
-        PrintGeese();
-        PrintRing();
-        PrintBird();
-        PrintHen();
-        PrintDove();
-        PrintPart();
+        printDay();
+        printDrum();
+        printPiper();
+        printLord();
+        printLady();
+        printMaid();
+        printSwan();
+        printGeese();
+        printFiveGroup();
     }  
 }
