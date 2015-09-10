@@ -1,10 +1,18 @@
 #BlueJ package file
 objectbench.height=76
+<<<<<<< HEAD
 objectbench.width=770
 package.editor.height=491
 package.editor.width=672
 package.editor.x=782
 package.editor.y=432
+=======
+objectbench.width=658
+package.editor.height=400
+package.editor.width=560
+package.editor.x=390
+package.editor.y=137
+>>>>>>> origin/master
 package.numDependencies=0
 package.numTargets=2
 package.showExtends=true
@@ -23,6 +31,7 @@ target1.typeParameters=
 target1.width=90
 target1.x=70
 target1.y=10
+<<<<<<< HEAD
 target2.editor.height=883
 target2.editor.width=1048
 target2.editor.x=689
@@ -30,6 +39,10 @@ target2.editor.y=50
 target2.height=50
 target2.name=OldLady
 target2.naviview.expanded=true
+=======
+target2.height=50
+target2.name=OldLady
+>>>>>>> origin/master
 target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=

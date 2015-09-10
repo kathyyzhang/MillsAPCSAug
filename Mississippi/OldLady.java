@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 /*Kathy Zhang
  * revision date: 8.31.15
  * purpose: to print the "Old Lady" song :)
  */
+=======
+/* Kathy Zhang
+revision: 8.31.15
+purpose: to print a song */
+
+>>>>>>> origin/master
 public class OldLady
 {
     public static void PrintBeg()
